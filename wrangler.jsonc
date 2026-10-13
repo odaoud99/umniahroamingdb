@@ -1,0 +1,8 @@
+{
+  "name": "umniah-roaming-db",
+  "main": "dist/worker.js",
+  "build": {"command": "npm run build"},
+  "compatibility_date": "2026-10-01",
+  "assets": {"directory": "dist/public", "binding": "ASSETS", "run_worker_first": true},
+  "d1_databases": [{"binding": "DB", "database_name": "umniah-roaming-db", "database_id": "REPLACE_WITH_DEPLOYED_D1_ID"}]
+}

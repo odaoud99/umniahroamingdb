@@ -1,0 +1,17 @@
+{
+  "source": "Umniah Roaming DB.xlsx",
+  "sha256": "632abaab4d2c3125ebc1c8a277608ccf2737526139b907a45d7c4dd11b270126",
+  "rows": 2193,
+  "unique_tap_codes": 481,
+  "sheets": {
+    "GSM Inbound": 468,
+    "GPRS Inbound": 438,
+    "LTE Inbound": 329,
+    "GSM Outbound": 273,
+    "Camel Outbound": 229,
+    "GPRS Outbound": 228,
+    "LTE Outbound": 228
+  },
+  "duplicate_rows_preserved": 2,
+  "import_policy": "All populated source rows preserved, including duplicates."
+}

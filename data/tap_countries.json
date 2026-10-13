@@ -1,0 +1,4812 @@
+[
+  {
+    "tap_code": "AAZTD",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "AAZ is a GSMA non-geographic M2M prefix; this international network has no country inferred.",
+    "imsi_prefixes": [
+      "90140"
+    ]
+  },
+  {
+    "tap_code": "AAZTR",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "AAZ is a GSMA non-geographic M2M prefix; this international network has no country inferred.",
+    "imsi_prefixes": [
+      "90137"
+    ]
+  },
+  {
+    "tap_code": "AAZVF",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "AAZ is a GSMA non-geographic M2M prefix; this international network has no country inferred.",
+    "imsi_prefixes": [
+      "90128"
+    ]
+  },
+  {
+    "tap_code": "ABWK9",
+    "country": "Aruba",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "36301"
+    ]
+  },
+  {
+    "tap_code": "AFGAW",
+    "country": "Afghanistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41201"
+    ]
+  },
+  {
+    "tap_code": "AGOK9",
+    "country": "Angola",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63102"
+    ]
+  },
+  {
+    "tap_code": "AIAK9",
+    "country": "Anguilla",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "365840"
+    ]
+  },
+  {
+    "tap_code": "ALBAM",
+    "country": "Albania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27601"
+    ]
+  },
+  {
+    "tap_code": "ALBK9",
+    "country": "Albania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27603"
+    ]
+  },
+  {
+    "tap_code": "ALBVF",
+    "country": "Albania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27602"
+    ]
+  },
+  {
+    "tap_code": "AREDU",
+    "country": "United Arab Emirates",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42403"
+    ]
+  },
+  {
+    "tap_code": "ARETC",
+    "country": "United Arab Emirates",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42402"
+    ]
+  },
+  {
+    "tap_code": "ARETH",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "Workbook IMSI uses international MCC 901; no single geographic country assigned without an authorised RAEX record.",
+    "imsi_prefixes": [
+      "90105"
+    ]
+  },
+  {
+    "tap_code": "ARGK9",
+    "country": "Argentina",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72234"
+    ]
+  },
+  {
+    "tap_code": "ARM01",
+    "country": "Armenia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28301"
+    ]
+  },
+  {
+    "tap_code": "ARM05",
+    "country": "Armenia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28305"
+    ]
+  },
+  {
+    "tap_code": "ARMOR",
+    "country": "Armenia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28310"
+    ]
+  },
+  {
+    "tap_code": "ASMK9",
+    "country": "American Samoa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "544110"
+    ]
+  },
+  {
+    "tap_code": "ATGK9",
+    "country": "Antigua and Barbuda",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "344920"
+    ]
+  },
+  {
+    "tap_code": "AUSOP",
+    "country": "Australia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50502"
+    ]
+  },
+  {
+    "tap_code": "AUSTA",
+    "country": "Australia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50501"
+    ]
+  },
+  {
+    "tap_code": "AUSVF",
+    "country": "Australia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50503"
+    ]
+  },
+  {
+    "tap_code": "AUTAT",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23213"
+    ]
+  },
+  {
+    "tap_code": "AUTK6",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23210"
+    ]
+  },
+  {
+    "tap_code": "AUTK7",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23205"
+    ]
+  },
+  {
+    "tap_code": "AUTMK",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23211"
+    ]
+  },
+  {
+    "tap_code": "AUTMM",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23203"
+    ]
+  },
+  {
+    "tap_code": "AUTPT",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23201"
+    ]
+  },
+  {
+    "tap_code": "AUTTR",
+    "country": "Austria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23207"
+    ]
+  },
+  {
+    "tap_code": "AZEAC",
+    "country": "Azerbaijan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40001"
+    ]
+  },
+  {
+    "tap_code": "AZEAF",
+    "country": "Azerbaijan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40004"
+    ]
+  },
+  {
+    "tap_code": "AZEBC",
+    "country": "Azerbaijan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40002"
+    ]
+  },
+  {
+    "tap_code": "BELBX",
+    "country": "Belgium",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20628"
+    ]
+  },
+  {
+    "tap_code": "BELDI",
+    "country": "Belgium",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20612"
+    ]
+  },
+  {
+    "tap_code": "BELKO",
+    "country": "Belgium",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20620"
+    ]
+  },
+  {
+    "tap_code": "BELMO",
+    "country": "Belgium",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20610"
+    ]
+  },
+  {
+    "tap_code": "BELTB",
+    "country": "Belgium",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20601"
+    ]
+  },
+  {
+    "tap_code": "BELTN",
+    "country": "Belgium",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20605"
+    ]
+  },
+  {
+    "tap_code": "BFAK8",
+    "country": "Burkina Faso",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61301"
+    ]
+  },
+  {
+    "tap_code": "BGDAK",
+    "country": "Bangladesh",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "47002"
+    ]
+  },
+  {
+    "tap_code": "BGDBL",
+    "country": "Bangladesh",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "47003"
+    ]
+  },
+  {
+    "tap_code": "BGDGP",
+    "country": "Bangladesh",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "47001"
+    ]
+  },
+  {
+    "tap_code": "BGRCM",
+    "country": "Bulgaria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28405"
+    ]
+  },
+  {
+    "tap_code": "BGRVA",
+    "country": "Bulgaria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28403"
+    ]
+  },
+  {
+    "tap_code": "BHRBT",
+    "country": "Bahrain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42601"
+    ]
+  },
+  {
+    "tap_code": "BHRMV",
+    "country": "Bahrain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42602"
+    ]
+  },
+  {
+    "tap_code": "BHRST",
+    "country": "Bahrain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42604"
+    ]
+  },
+  {
+    "tap_code": "BHSK8",
+    "country": "Bahamas",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "36439"
+    ]
+  },
+  {
+    "tap_code": "BIHMS",
+    "country": "Bosnia and Herzegovina",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21805"
+    ]
+  },
+  {
+    "tap_code": "BLR02",
+    "country": "Belarus",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25702"
+    ]
+  },
+  {
+    "tap_code": "BLRK8",
+    "country": "Belarus",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25704"
+    ]
+  },
+  {
+    "tap_code": "BLZK9",
+    "country": "Belize",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "70267"
+    ]
+  },
+  {
+    "tap_code": "BMUK9",
+    "country": "Bermuda",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "350000"
+    ]
+  },
+  {
+    "tap_code": "BRACL",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72405"
+    ]
+  },
+  {
+    "tap_code": "BRACS",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72404"
+    ]
+  },
+  {
+    "tap_code": "BRARN",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72402"
+    ]
+  },
+  {
+    "tap_code": "BRASP",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72403"
+    ]
+  },
+  {
+    "tap_code": "BRATC",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72423"
+    ]
+  },
+  {
+    "tap_code": "BRAV1",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72410"
+    ]
+  },
+  {
+    "tap_code": "BRAV2",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72406"
+    ]
+  },
+  {
+    "tap_code": "BRAV3",
+    "country": "Brazil",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "72411"
+    ]
+  },
+  {
+    "tap_code": "BRBK9",
+    "country": "Barbados",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "342600"
+    ]
+  },
+  {
+    "tap_code": "BRNBR",
+    "country": "Brunei Darussalam",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52802"
+    ]
+  },
+  {
+    "tap_code": "BRNDS",
+    "country": "Brunei Darussalam",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52811"
+    ]
+  },
+  {
+    "tap_code": "BRNTB",
+    "country": "Brunei Darussalam",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52801"
+    ]
+  },
+  {
+    "tap_code": "BRNUN",
+    "country": "Brunei Darussalam",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52803"
+    ]
+  },
+  {
+    "tap_code": "BWAK8",
+    "country": "Botswana",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "65204"
+    ]
+  },
+  {
+    "tap_code": "CANBM",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302610"
+    ]
+  },
+  {
+    "tap_code": "CANGW",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302490"
+    ]
+  },
+  {
+    "tap_code": "CANK7",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302270"
+    ]
+  },
+  {
+    "tap_code": "CANK8",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302620"
+    ]
+  },
+  {
+    "tap_code": "CANMC",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302370"
+    ]
+  },
+  {
+    "tap_code": "CANMM",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302690"
+    ]
+  },
+  {
+    "tap_code": "CANRW",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302720"
+    ]
+  },
+  {
+    "tap_code": "CANST",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302780"
+    ]
+  },
+  {
+    "tap_code": "CANTS",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302220"
+    ]
+  },
+  {
+    "tap_code": "CANVT",
+    "country": "Canada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "302500"
+    ]
+  },
+  {
+    "tap_code": "CHEC1",
+    "country": "Switzerland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22801"
+    ]
+  },
+  {
+    "tap_code": "CHEDX",
+    "country": "Switzerland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22802"
+    ]
+  },
+  {
+    "tap_code": "CHEOR",
+    "country": "Switzerland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22803"
+    ]
+  },
+  {
+    "tap_code": "CHLMV",
+    "country": "Chile",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "73001"
+    ]
+  },
+  {
+    "tap_code": "CHNCM",
+    "country": "China",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "46002"
+    ]
+  },
+  {
+    "tap_code": "CHNCT",
+    "country": "China",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "46000"
+    ]
+  },
+  {
+    "tap_code": "CHNK7",
+    "country": "China",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "46011"
+    ]
+  },
+  {
+    "tap_code": "CHNMM",
+    "country": "China",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "46013"
+    ]
+  },
+  {
+    "tap_code": "CHNTD",
+    "country": "China",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "46007"
+    ]
+  },
+  {
+    "tap_code": "CIVTL",
+    "country": "Côte d’Ivoire",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61205"
+    ]
+  },
+  {
+    "tap_code": "CODK9",
+    "country": "Democratic Republic of the Congo",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63090"
+    ]
+  },
+  {
+    "tap_code": "CODVC",
+    "country": "Democratic Republic of the Congo",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63001"
+    ]
+  },
+  {
+    "tap_code": "COKK9",
+    "country": "Cook Islands",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "54801"
+    ]
+  },
+  {
+    "tap_code": "CPVK9",
+    "country": "Cabo Verde",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62502"
+    ]
+  },
+  {
+    "tap_code": "CYMK9",
+    "country": "Cayman Islands",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "346140"
+    ]
+  },
+  {
+    "tap_code": "CYPCN",
+    "country": "Cyprus",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28022"
+    ]
+  },
+  {
+    "tap_code": "CYPCT",
+    "country": "Cyprus",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28001"
+    ]
+  },
+  {
+    "tap_code": "CYPPT",
+    "country": "Cyprus",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28020"
+    ]
+  },
+  {
+    "tap_code": "CYPSC",
+    "country": "Cyprus",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28010"
+    ]
+  },
+  {
+    "tap_code": "CZECM",
+    "country": "Czechia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23003"
+    ]
+  },
+  {
+    "tap_code": "CZERM",
+    "country": "Czechia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23001"
+    ]
+  },
+  {
+    "tap_code": "DEUD1",
+    "country": "Germany",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26201"
+    ]
+  },
+  {
+    "tap_code": "DEUD2",
+    "country": "Germany",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26202"
+    ]
+  },
+  {
+    "tap_code": "DEUE1",
+    "country": "Germany",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26203"
+    ]
+  },
+  {
+    "tap_code": "DEUE2",
+    "country": "Germany",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26207"
+    ]
+  },
+  {
+    "tap_code": "DJIK9",
+    "country": "Djibouti",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63801"
+    ]
+  },
+  {
+    "tap_code": "DMAK9",
+    "country": "Dominica",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "366110"
+    ]
+  },
+  {
+    "tap_code": "DNKDM",
+    "country": "Denmark",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23802"
+    ]
+  },
+  {
+    "tap_code": "DNKHU",
+    "country": "Denmark",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23806"
+    ]
+  },
+  {
+    "tap_code": "DNKTD",
+    "country": "Denmark",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23801"
+    ]
+  },
+  {
+    "tap_code": "DZAA1",
+    "country": "Algeria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60301"
+    ]
+  },
+  {
+    "tap_code": "DZAOT",
+    "country": "Algeria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60302"
+    ]
+  },
+  {
+    "tap_code": "DZAWT",
+    "country": "Algeria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60303"
+    ]
+  },
+  {
+    "tap_code": "EGYAR",
+    "country": "Egypt",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60201"
+    ]
+  },
+  {
+    "tap_code": "EGYEM",
+    "country": "Egypt",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60203"
+    ]
+  },
+  {
+    "tap_code": "EGYMS",
+    "country": "Egypt",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60202"
+    ]
+  },
+  {
+    "tap_code": "EGYTE",
+    "country": "Egypt",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60204"
+    ]
+  },
+  {
+    "tap_code": "EMNDE",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "Workbook IMSI uses international MCC 901; no single geographic country assigned without an authorised RAEX record.",
+    "imsi_prefixes": [
+      "90143"
+    ]
+  },
+  {
+    "tap_code": "ESPAT",
+    "country": "Spain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21401"
+    ]
+  },
+  {
+    "tap_code": "ESPDI",
+    "country": "Spain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21422"
+    ]
+  },
+  {
+    "tap_code": "ESPRT",
+    "country": "Spain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21403"
+    ]
+  },
+  {
+    "tap_code": "ESPT2",
+    "country": "Spain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21405"
+    ]
+  },
+  {
+    "tap_code": "ESPTE",
+    "country": "Spain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21407"
+    ]
+  },
+  {
+    "tap_code": "ESPVV",
+    "country": "Spain",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21406"
+    ]
+  },
+  {
+    "tap_code": "ESTRB",
+    "country": "Estonia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24803"
+    ]
+  },
+  {
+    "tap_code": "ETH01",
+    "country": "Ethiopia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63601"
+    ]
+  },
+  {
+    "tap_code": "FINK7",
+    "country": "Finland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24412"
+    ]
+  },
+  {
+    "tap_code": "FJIVF",
+    "country": "Fiji",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "54201"
+    ]
+  },
+  {
+    "tap_code": "FRA09",
+    "country": "France",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20809"
+    ]
+  },
+  {
+    "tap_code": "FRAF1",
+    "country": "France",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20801"
+    ]
+  },
+  {
+    "tap_code": "FRAF2",
+    "country": "France",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20810"
+    ]
+  },
+  {
+    "tap_code": "FRAF3",
+    "country": "France",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20820"
+    ]
+  },
+  {
+    "tap_code": "FRAFM",
+    "country": "France",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20815"
+    ]
+  },
+  {
+    "tap_code": "GABK8",
+    "country": "Gabon",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62801"
+    ]
+  },
+  {
+    "tap_code": "GBRAJ",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23403"
+    ]
+  },
+  {
+    "tap_code": "GBRCN",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23410"
+    ]
+  },
+  {
+    "tap_code": "GBRGT",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23455"
+    ]
+  },
+  {
+    "tap_code": "GBRHU",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23420"
+    ]
+  },
+  {
+    "tap_code": "GBRJT",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23450"
+    ]
+  },
+  {
+    "tap_code": "GBRK4",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23457"
+    ]
+  },
+  {
+    "tap_code": "GBRME",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23430"
+    ]
+  },
+  {
+    "tap_code": "GBRMT",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23458"
+    ]
+  },
+  {
+    "tap_code": "GBROR",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23433"
+    ]
+  },
+  {
+    "tap_code": "GBRTR",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23425"
+    ]
+  },
+  {
+    "tap_code": "GBRVF",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23415"
+    ]
+  },
+  {
+    "tap_code": "GEOMA",
+    "country": "Georgia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28202"
+    ]
+  },
+  {
+    "tap_code": "GHAGT",
+    "country": "Ghana",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62002"
+    ]
+  },
+  {
+    "tap_code": "GHAMT",
+    "country": "Ghana",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62003"
+    ]
+  },
+  {
+    "tap_code": "GIBK6",
+    "country": "Gibraltar",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26601"
+    ]
+  },
+  {
+    "tap_code": "GINK8",
+    "country": "Guinea",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61104"
+    ]
+  },
+  {
+    "tap_code": "GMBK9",
+    "country": "Gambia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60701"
+    ]
+  },
+  {
+    "tap_code": "GRCCO",
+    "country": "Greece",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20201"
+    ]
+  },
+  {
+    "tap_code": "GRCPF",
+    "country": "Greece",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20205"
+    ]
+  },
+  {
+    "tap_code": "GRCQT",
+    "country": "Greece",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20209"
+    ]
+  },
+  {
+    "tap_code": "GRCSH",
+    "country": "Greece",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20210"
+    ]
+  },
+  {
+    "tap_code": "GRDK9",
+    "country": "Grenada",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "352110"
+    ]
+  },
+  {
+    "tap_code": "GUYK8",
+    "country": "Guyana",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "738002"
+    ]
+  },
+  {
+    "tap_code": "HKGM3",
+    "country": "China, Hong Kong Special Administrative Region",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45419"
+    ]
+  },
+  {
+    "tap_code": "HKGTC",
+    "country": "China, Hong Kong Special Administrative Region",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45400"
+    ]
+  },
+  {
+    "tap_code": "HRVCN",
+    "country": "Croatia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21901"
+    ]
+  },
+  {
+    "tap_code": "HRVT2",
+    "country": "Croatia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21902"
+    ]
+  },
+  {
+    "tap_code": "HTIK9",
+    "country": "Haiti",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "37203"
+    ]
+  },
+  {
+    "tap_code": "HUNH1",
+    "country": "Hungary",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21601"
+    ]
+  },
+  {
+    "tap_code": "HUNH2",
+    "country": "Hungary",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21630"
+    ]
+  },
+  {
+    "tap_code": "HUNVR",
+    "country": "Hungary",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21670"
+    ]
+  },
+  {
+    "tap_code": "IDNEX",
+    "country": "Indonesia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51011"
+    ]
+  },
+  {
+    "tap_code": "IDNK7",
+    "country": "Indonesia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51021"
+    ]
+  },
+  {
+    "tap_code": "IDNK8",
+    "country": "Indonesia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51001"
+    ]
+  },
+  {
+    "tap_code": "IDNTS",
+    "country": "Indonesia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51010"
+    ]
+  },
+  {
+    "tap_code": "IND07",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40407"
+    ]
+  },
+  {
+    "tap_code": "IND10",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40554"
+    ]
+  },
+  {
+    "tap_code": "IND11",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40553"
+    ]
+  },
+  {
+    "tap_code": "IND12",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40552"
+    ]
+  },
+  {
+    "tap_code": "IND13",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40555"
+    ]
+  },
+  {
+    "tap_code": "IND14",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40551"
+    ]
+  },
+  {
+    "tap_code": "IND15",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40556"
+    ]
+  },
+  {
+    "tap_code": "IND16",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40416"
+    ]
+  },
+  {
+    "tap_code": "INDA1",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40492"
+    ]
+  },
+  {
+    "tap_code": "INDA2",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40490"
+    ]
+  },
+  {
+    "tap_code": "INDA3",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40498"
+    ]
+  },
+  {
+    "tap_code": "INDA4",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40494"
+    ]
+  },
+  {
+    "tap_code": "INDA5",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40496"
+    ]
+  },
+  {
+    "tap_code": "INDA6",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40497"
+    ]
+  },
+  {
+    "tap_code": "INDA7",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40495"
+    ]
+  },
+  {
+    "tap_code": "INDA8",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40493"
+    ]
+  },
+  {
+    "tap_code": "INDA9",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40402"
+    ]
+  },
+  {
+    "tap_code": "INDAM",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405845"
+    ]
+  },
+  {
+    "tap_code": "INDAT",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40410"
+    ]
+  },
+  {
+    "tap_code": "INDBI",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40424"
+    ]
+  },
+  {
+    "tap_code": "INDBK",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40446"
+    ]
+  },
+  {
+    "tap_code": "INDBL",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40403"
+    ]
+  },
+  {
+    "tap_code": "INDBM",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40427"
+    ]
+  },
+  {
+    "tap_code": "INDBO",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40422"
+    ]
+  },
+  {
+    "tap_code": "INDBT",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40443"
+    ]
+  },
+  {
+    "tap_code": "INDCC",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40430"
+    ]
+  },
+  {
+    "tap_code": "INDE1",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40411"
+    ]
+  },
+  {
+    "tap_code": "INDEH",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40412"
+    ]
+  },
+  {
+    "tap_code": "INDEK",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40419"
+    ]
+  },
+  {
+    "tap_code": "INDEU",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40456"
+    ]
+  },
+  {
+    "tap_code": "INDF1",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40405"
+    ]
+  },
+  {
+    "tap_code": "INDH1",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40470"
+    ]
+  },
+  {
+    "tap_code": "INDHM",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40420"
+    ]
+  },
+  {
+    "tap_code": "INDIB",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40570"
+    ]
+  },
+  {
+    "tap_code": "INDID",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40404"
+    ]
+  },
+  {
+    "tap_code": "INDIE",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405849"
+    ]
+  },
+  {
+    "tap_code": "INDIH",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40482"
+    ]
+  },
+  {
+    "tap_code": "INDIJ",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405846"
+    ]
+  },
+  {
+    "tap_code": "INDIK",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405848"
+    ]
+  },
+  {
+    "tap_code": "INDIM",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405799"
+    ]
+  },
+  {
+    "tap_code": "INDIO",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405850"
+    ]
+  },
+  {
+    "tap_code": "INDIR",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40487"
+    ]
+  },
+  {
+    "tap_code": "INDIT",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405852"
+    ]
+  },
+  {
+    "tap_code": "INDIU",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40489"
+    ]
+  },
+  {
+    "tap_code": "INDIW",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405853"
+    ]
+  },
+  {
+    "tap_code": "INDJB",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40445"
+    ]
+  },
+  {
+    "tap_code": "INDJH",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40449"
+    ]
+  },
+  {
+    "tap_code": "INDMP",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40478"
+    ]
+  },
+  {
+    "tap_code": "INDMT",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40431"
+    ]
+  },
+  {
+    "tap_code": "INDP1",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405840"
+    ]
+  },
+  {
+    "tap_code": "INDP2",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405854"
+    ]
+  },
+  {
+    "tap_code": "INDP3",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405855"
+    ]
+  },
+  {
+    "tap_code": "INDP4",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405856"
+    ]
+  },
+  {
+    "tap_code": "INDP5",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405857"
+    ]
+  },
+  {
+    "tap_code": "INDP6",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405858"
+    ]
+  },
+  {
+    "tap_code": "INDP7",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405859"
+    ]
+  },
+  {
+    "tap_code": "INDP8",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405860"
+    ]
+  },
+  {
+    "tap_code": "INDP9",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405861"
+    ]
+  },
+  {
+    "tap_code": "INDPL",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405862"
+    ]
+  },
+  {
+    "tap_code": "INDPM",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405863"
+    ]
+  },
+  {
+    "tap_code": "INDPO",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405865"
+    ]
+  },
+  {
+    "tap_code": "INDPP",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405866"
+    ]
+  },
+  {
+    "tap_code": "INDPQ",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405867"
+    ]
+  },
+  {
+    "tap_code": "INDPR",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405868"
+    ]
+  },
+  {
+    "tap_code": "INDPS",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405869"
+    ]
+  },
+  {
+    "tap_code": "INDPT",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405870"
+    ]
+  },
+  {
+    "tap_code": "INDPU",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405871"
+    ]
+  },
+  {
+    "tap_code": "INDPV",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405872"
+    ]
+  },
+  {
+    "tap_code": "INDPX",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405874"
+    ]
+  },
+  {
+    "tap_code": "INDPY",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405864"
+    ]
+  },
+  {
+    "tap_code": "INDPZ",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "405873"
+    ]
+  },
+  {
+    "tap_code": "INDSC",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40440"
+    ]
+  },
+  {
+    "tap_code": "INDSK",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40444"
+    ]
+  },
+  {
+    "tap_code": "INDSP",
+    "country": "India",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40414"
+    ]
+  },
+  {
+    "tap_code": "IRLEC",
+    "country": "Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27201"
+    ]
+  },
+  {
+    "tap_code": "IRLK6",
+    "country": "Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27202"
+    ]
+  },
+  {
+    "tap_code": "IRLK7",
+    "country": "Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27203"
+    ]
+  },
+  {
+    "tap_code": "IRLK8",
+    "country": "Ireland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27205"
+    ]
+  },
+  {
+    "tap_code": "IRN11",
+    "country": "Iran (Islamic Republic of)",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43211"
+    ]
+  },
+  {
+    "tap_code": "IRQAC",
+    "country": "Iraq",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41805"
+    ]
+  },
+  {
+    "tap_code": "IRQAT",
+    "country": "Iraq",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41820"
+    ]
+  },
+  {
+    "tap_code": "IRQKK",
+    "country": "Iraq",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41840"
+    ]
+  },
+  {
+    "tap_code": "IRQOR",
+    "country": "Iraq",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41830"
+    ]
+  },
+  {
+    "tap_code": "ISLNO",
+    "country": "Iceland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27411"
+    ]
+  },
+  {
+    "tap_code": "ISLTL",
+    "country": "Iceland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27402"
+    ]
+  },
+  {
+    "tap_code": "ISR01",
+    "country": "Israel",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42501"
+    ]
+  },
+  {
+    "tap_code": "ISRCL",
+    "country": "Israel",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42502"
+    ]
+  },
+  {
+    "tap_code": "ISRPL",
+    "country": "Israel",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42503"
+    ]
+  },
+  {
+    "tap_code": "ITADI",
+    "country": "Italy",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22236"
+    ]
+  },
+  {
+    "tap_code": "ITAFM",
+    "country": "Italy",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22250"
+    ]
+  },
+  {
+    "tap_code": "ITAH3",
+    "country": "Italy",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22299"
+    ]
+  },
+  {
+    "tap_code": "ITAOM",
+    "country": "Italy",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22210"
+    ]
+  },
+  {
+    "tap_code": "ITASI",
+    "country": "Italy",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22201"
+    ]
+  },
+  {
+    "tap_code": "ITAWI",
+    "country": "Italy",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "22288"
+    ]
+  },
+  {
+    "tap_code": "JAMDC",
+    "country": "Jamaica",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "338050"
+    ]
+  },
+  {
+    "tap_code": "JAMK9",
+    "country": "Jamaica",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "338180"
+    ]
+  },
+  {
+    "tap_code": "JPNDO",
+    "country": "Japan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "44010"
+    ]
+  },
+  {
+    "tap_code": "JPNJP",
+    "country": "Japan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "44020"
+    ]
+  },
+  {
+    "tap_code": "JPNKD",
+    "country": "Japan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "44050"
+    ]
+  },
+  {
+    "tap_code": "JPNKI",
+    "country": "Japan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "44051"
+    ]
+  },
+  {
+    "tap_code": "JPNKS",
+    "country": "Japan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "44054"
+    ]
+  },
+  {
+    "tap_code": "JPNRM",
+    "country": "Japan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "44011"
+    ]
+  },
+  {
+    "tap_code": "K00K8",
+    "country": "Kosovo",
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "inferred_prefix",
+    "country_note": "GSMA TD.13 documents this legacy/special country prefix; individual code not verified in RAEX.",
+    "imsi_prefixes": [
+      "22102"
+    ]
+  },
+  {
+    "tap_code": "KAZ77",
+    "country": "Kazakhstan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40177"
+    ]
+  },
+  {
+    "tap_code": "KAZKT",
+    "country": "Kazakhstan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "40101"
+    ]
+  },
+  {
+    "tap_code": "KENK7",
+    "country": "Kenya",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63903"
+    ]
+  },
+  {
+    "tap_code": "KENK9",
+    "country": "Kenya",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63907"
+    ]
+  },
+  {
+    "tap_code": "KGZ01",
+    "country": "Kyrgyzstan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43701"
+    ]
+  },
+  {
+    "tap_code": "KHML1",
+    "country": "Cambodia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45606"
+    ]
+  },
+  {
+    "tap_code": "KHMSH",
+    "country": "Cambodia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45618"
+    ]
+  },
+  {
+    "tap_code": "KIRK9",
+    "country": "Kiribati",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "54501"
+    ]
+  },
+  {
+    "tap_code": "KNAK9",
+    "country": "Saint Kitts and Nevis",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "356110"
+    ]
+  },
+  {
+    "tap_code": "KORKF",
+    "country": "Republic of Korea",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45008"
+    ]
+  },
+  {
+    "tap_code": "KORSK",
+    "country": "Republic of Korea",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45005"
+    ]
+  },
+  {
+    "tap_code": "KWTKT",
+    "country": "Kuwait",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41904"
+    ]
+  },
+  {
+    "tap_code": "KWTMT",
+    "country": "Kuwait",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41902"
+    ]
+  },
+  {
+    "tap_code": "KWTNM",
+    "country": "Kuwait",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41903"
+    ]
+  },
+  {
+    "tap_code": "KWTVM",
+    "country": "Kuwait",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41909"
+    ]
+  },
+  {
+    "tap_code": "LAOK9",
+    "country": "Lao People's Democratic Republic",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45703"
+    ]
+  },
+  {
+    "tap_code": "LBNFL",
+    "country": "Lebanon",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41501"
+    ]
+  },
+  {
+    "tap_code": "LBNLC",
+    "country": "Lebanon",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41503"
+    ]
+  },
+  {
+    "tap_code": "LBY01",
+    "country": "Libya",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60601"
+    ]
+  },
+  {
+    "tap_code": "LBYLM",
+    "country": "Libya",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60600"
+    ]
+  },
+  {
+    "tap_code": "LCAK9",
+    "country": "Saint Lucia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "358110"
+    ]
+  },
+  {
+    "tap_code": "LIEVE",
+    "country": "Liechtenstein",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "29502"
+    ]
+  },
+  {
+    "tap_code": "LKA71",
+    "country": "Sri Lanka",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41301"
+    ]
+  },
+  {
+    "tap_code": "LKADG",
+    "country": "Sri Lanka",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41302"
+    ]
+  },
+  {
+    "tap_code": "LSOVL",
+    "country": "Lesotho",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "65101"
+    ]
+  },
+  {
+    "tap_code": "LTU03",
+    "country": "Lithuania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24603"
+    ]
+  },
+  {
+    "tap_code": "LTUK9",
+    "country": "Lithuania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24602"
+    ]
+  },
+  {
+    "tap_code": "LUXPT",
+    "country": "Luxembourg",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27001"
+    ]
+  },
+  {
+    "tap_code": "LUXTG",
+    "country": "Luxembourg",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27077"
+    ]
+  },
+  {
+    "tap_code": "LUXVM",
+    "country": "Luxembourg",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27099"
+    ]
+  },
+  {
+    "tap_code": "LVABC",
+    "country": "Latvia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24702"
+    ]
+  },
+  {
+    "tap_code": "LVAK9",
+    "country": "Latvia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24705"
+    ]
+  },
+  {
+    "tap_code": "LVALM",
+    "country": "Latvia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24701"
+    ]
+  },
+  {
+    "tap_code": "MACCT",
+    "country": "China, Macao Special Administrative Region",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45501"
+    ]
+  },
+  {
+    "tap_code": "MARM1",
+    "country": "Morocco",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60401"
+    ]
+  },
+  {
+    "tap_code": "MARM3",
+    "country": "Morocco",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60402"
+    ]
+  },
+  {
+    "tap_code": "MARMT",
+    "country": "Morocco",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60400"
+    ]
+  },
+  {
+    "tap_code": "MCOK8",
+    "country": "Monaco",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "21210"
+    ]
+  },
+  {
+    "tap_code": "MDAK8",
+    "country": "Republic of Moldova",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25905"
+    ]
+  },
+  {
+    "tap_code": "MDV01",
+    "country": "Maldives",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "47201"
+    ]
+  },
+  {
+    "tap_code": "MDVWM",
+    "country": "Maldives",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "47202"
+    ]
+  },
+  {
+    "tap_code": "MEXIU",
+    "country": "Mexico",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "334050"
+    ]
+  },
+  {
+    "tap_code": "MEXMS",
+    "country": "Mexico",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "334030"
+    ]
+  },
+  {
+    "tap_code": "MEXTL",
+    "country": "Mexico",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "334020"
+    ]
+  },
+  {
+    "tap_code": "MKDK8",
+    "country": "North Macedonia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "29401"
+    ]
+  },
+  {
+    "tap_code": "MLI02",
+    "country": "Mali",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61002"
+    ]
+  },
+  {
+    "tap_code": "MLTGO",
+    "country": "Malta",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27821"
+    ]
+  },
+  {
+    "tap_code": "MLTK8",
+    "country": "Malta",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27877"
+    ]
+  },
+  {
+    "tap_code": "MLTMA",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "Workbook IMSI uses international MCC 901; no single geographic country assigned without an authorised RAEX record.",
+    "imsi_prefixes": [
+      "90119"
+    ]
+  },
+  {
+    "tap_code": "MLTTL",
+    "country": "Malta",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "27801"
+    ]
+  },
+  {
+    "tap_code": "MMRK7",
+    "country": "Myanmar",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41409"
+    ]
+  },
+  {
+    "tap_code": "MMRK8",
+    "country": "Myanmar",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41406"
+    ]
+  },
+  {
+    "tap_code": "MNEK9",
+    "country": "Montenegro",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "29702"
+    ]
+  },
+  {
+    "tap_code": "MNGK7",
+    "country": "Mongolia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42888"
+    ]
+  },
+  {
+    "tap_code": "MOZK9",
+    "country": "Mozambique",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64303"
+    ]
+  },
+  {
+    "tap_code": "MOZVC",
+    "country": "Mozambique",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64304"
+    ]
+  },
+  {
+    "tap_code": "MRTK7",
+    "country": "Mauritania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60902"
+    ]
+  },
+  {
+    "tap_code": "MRTK9",
+    "country": "Mauritania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60901"
+    ]
+  },
+  {
+    "tap_code": "MSRK9",
+    "country": "Montserrat",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "354860"
+    ]
+  },
+  {
+    "tap_code": "MTX01",
+    "country": "Luxembourg",
+    "source": "https://contacts.mtxc.eu/",
+    "verification_status": "inferred_prefix",
+    "country_note": "Official operator website identifies MTX01 and MCC/MNC 27002 as Luxembourg. Public corroboration, not RAEX verification.",
+    "imsi_prefixes": [
+      "27002"
+    ]
+  },
+  {
+    "tap_code": "MTX02",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "Workbook IMSI uses international MCC 901; no single geographic country assigned without an authorised RAEX record.",
+    "imsi_prefixes": [
+      "90139"
+    ]
+  },
+  {
+    "tap_code": "MUSCP",
+    "country": "Mauritius",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61701"
+    ]
+  },
+  {
+    "tap_code": "MUSEM",
+    "country": "Mauritius",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61710"
+    ]
+  },
+  {
+    "tap_code": "MWIK9",
+    "country": "Malawi",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "65001"
+    ]
+  },
+  {
+    "tap_code": "MYSBC",
+    "country": "Malaysia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50212"
+    ]
+  },
+  {
+    "tap_code": "MYSK7",
+    "country": "Malaysia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50218"
+    ]
+  },
+  {
+    "tap_code": "MYSK9",
+    "country": "Malaysia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50219"
+    ]
+  },
+  {
+    "tap_code": "MYSMT",
+    "country": "Malaysia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "50216"
+    ]
+  },
+  {
+    "tap_code": "NAM01",
+    "country": "Namibia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64901"
+    ]
+  },
+  {
+    "tap_code": "NERCT",
+    "country": "Niger",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61402"
+    ]
+  },
+  {
+    "tap_code": "NGAEM",
+    "country": "Nigeria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62160"
+    ]
+  },
+  {
+    "tap_code": "NGAGM",
+    "country": "Nigeria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62150"
+    ]
+  },
+  {
+    "tap_code": "NGAMN",
+    "country": "Nigeria",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62130"
+    ]
+  },
+  {
+    "tap_code": "NLDDT",
+    "country": "Netherlands (Kingdom of the)",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20420"
+    ]
+  },
+  {
+    "tap_code": "NLDLT",
+    "country": "Netherlands (Kingdom of the)",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20404"
+    ]
+  },
+  {
+    "tap_code": "NLDPN",
+    "country": "Netherlands (Kingdom of the)",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20416"
+    ]
+  },
+  {
+    "tap_code": "NLDPT",
+    "country": "Netherlands (Kingdom of the)",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20408"
+    ]
+  },
+  {
+    "tap_code": "NLDTM",
+    "country": "Netherlands (Kingdom of the)",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "20412"
+    ]
+  },
+  {
+    "tap_code": "NORMC",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "Workbook IMSI uses international MCC 901; no single geographic country assigned without an authorised RAEX record.",
+    "imsi_prefixes": [
+      "90112"
+    ]
+  },
+  {
+    "tap_code": "NORTM",
+    "country": "Norway",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24201"
+    ]
+  },
+  {
+    "tap_code": "NZLBS",
+    "country": "New Zealand",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "53001"
+    ]
+  },
+  {
+    "tap_code": "NZLNH",
+    "country": "New Zealand",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "53024"
+    ]
+  },
+  {
+    "tap_code": "NZLTM",
+    "country": "New Zealand",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "53005"
+    ]
+  },
+  {
+    "tap_code": "OMNGT",
+    "country": "Oman",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42202"
+    ]
+  },
+  {
+    "tap_code": "OMNNT",
+    "country": "Oman",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42203"
+    ]
+  },
+  {
+    "tap_code": "OMNVF",
+    "country": "Oman",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42206"
+    ]
+  },
+  {
+    "tap_code": "PAKMK",
+    "country": "Pakistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41001"
+    ]
+  },
+  {
+    "tap_code": "PAKPL",
+    "country": "Pakistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41004"
+    ]
+  },
+  {
+    "tap_code": "PAKTP",
+    "country": "Pakistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41006"
+    ]
+  },
+  {
+    "tap_code": "PANMS",
+    "country": "Panama",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "714020"
+    ]
+  },
+  {
+    "tap_code": "PHLGT",
+    "country": "Philippines",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51502"
+    ]
+  },
+  {
+    "tap_code": "PHLSR",
+    "country": "Philippines",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51503"
+    ]
+  },
+  {
+    "tap_code": "POL02",
+    "country": "Poland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26002"
+    ]
+  },
+  {
+    "tap_code": "POL03",
+    "country": "Poland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26003"
+    ]
+  },
+  {
+    "tap_code": "POLKM",
+    "country": "Poland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26001"
+    ]
+  },
+  {
+    "tap_code": "POLP4",
+    "country": "Poland",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26006"
+    ]
+  },
+  {
+    "tap_code": "PRICL",
+    "country": "Puerto Rico",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "330110"
+    ]
+  },
+  {
+    "tap_code": "PRTDI",
+    "country": "Portugal",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26802"
+    ]
+  },
+  {
+    "tap_code": "PRTTL",
+    "country": "Portugal",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26801"
+    ]
+  },
+  {
+    "tap_code": "PRTTM",
+    "country": "Portugal",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "26806"
+    ]
+  },
+  {
+    "tap_code": "PRYHT",
+    "country": "Paraguay",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "74402"
+    ]
+  },
+  {
+    "tap_code": "PRYK8",
+    "country": "Paraguay",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "74404"
+    ]
+  },
+  {
+    "tap_code": "PSEJE",
+    "country": "State of Palestine",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42505"
+    ]
+  },
+  {
+    "tap_code": "PSEWM",
+    "country": "State of Palestine",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42506"
+    ]
+  },
+  {
+    "tap_code": "QATB1",
+    "country": "Qatar",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42702"
+    ]
+  },
+  {
+    "tap_code": "QATQT",
+    "country": "Qatar",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42701"
+    ]
+  },
+  {
+    "tap_code": "ROM05",
+    "country": "Romania",
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "inferred_prefix",
+    "country_note": "GSMA TD.13 documents this legacy/special country prefix; individual code not verified in RAEX.",
+    "imsi_prefixes": [
+      "22605"
+    ]
+  },
+  {
+    "tap_code": "ROMCS",
+    "country": "Romania",
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "inferred_prefix",
+    "country_note": "GSMA TD.13 documents this legacy/special country prefix; individual code not verified in RAEX.",
+    "imsi_prefixes": [
+      "22603"
+    ]
+  },
+  {
+    "tap_code": "ROMMF",
+    "country": "Romania",
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "inferred_prefix",
+    "country_note": "GSMA TD.13 documents this legacy/special country prefix; individual code not verified in RAEX.",
+    "imsi_prefixes": [
+      "22601"
+    ]
+  },
+  {
+    "tap_code": "RUS01",
+    "country": "Russian Federation",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25001"
+    ]
+  },
+  {
+    "tap_code": "RUSBD",
+    "country": "Russian Federation",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25099"
+    ]
+  },
+  {
+    "tap_code": "RUSK3",
+    "country": "Russian Federation",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25027"
+    ]
+  },
+  {
+    "tap_code": "RUSNW",
+    "country": "Russian Federation",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25002"
+    ]
+  },
+  {
+    "tap_code": "RUST2",
+    "country": "Russian Federation",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25020"
+    ]
+  },
+  {
+    "tap_code": "SAU10",
+    "country": "Saudi Arabia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42010"
+    ]
+  },
+  {
+    "tap_code": "SAUAJ",
+    "country": "Saudi Arabia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42001"
+    ]
+  },
+  {
+    "tap_code": "SAUET",
+    "country": "Saudi Arabia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42003"
+    ]
+  },
+  {
+    "tap_code": "SAUSM",
+    "country": "Saudi Arabia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42009"
+    ]
+  },
+  {
+    "tap_code": "SAUVG",
+    "country": "Saudi Arabia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42005"
+    ]
+  },
+  {
+    "tap_code": "SAUZN",
+    "country": "Saudi Arabia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42004"
+    ]
+  },
+  {
+    "tap_code": "SDNBT",
+    "country": "Sudan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63402"
+    ]
+  },
+  {
+    "tap_code": "SENK9",
+    "country": "Senegal",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60801"
+    ]
+  },
+  {
+    "tap_code": "SGPM1",
+    "country": "Singapore",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52503"
+    ]
+  },
+  {
+    "tap_code": "SGPML",
+    "country": "Singapore",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52502"
+    ]
+  },
+  {
+    "tap_code": "SGPSH",
+    "country": "Singapore",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52505"
+    ]
+  },
+  {
+    "tap_code": "SGPST",
+    "country": "Singapore",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52501"
+    ]
+  },
+  {
+    "tap_code": "SLBK9",
+    "country": "Solomon Islands",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "54001"
+    ]
+  },
+  {
+    "tap_code": "SLEAC",
+    "country": "Sierra Leone",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61905"
+    ]
+  },
+  {
+    "tap_code": "SSDK8",
+    "country": "South Sudan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "65906"
+    ]
+  },
+  {
+    "tap_code": "STPK9",
+    "country": "Sao Tome and Principe",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "62601"
+    ]
+  },
+  {
+    "tap_code": "SUDMO",
+    "country": "Sudan",
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "inferred_prefix",
+    "country_note": "GSMA TD.13 documents this legacy/special country prefix; individual code not verified in RAEX.",
+    "imsi_prefixes": [
+      "63401"
+    ]
+  },
+  {
+    "tap_code": "SVKET",
+    "country": "Slovakia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23102"
+    ]
+  },
+  {
+    "tap_code": "SVKGT",
+    "country": "Slovakia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "23101"
+    ]
+  },
+  {
+    "tap_code": "SVNK7",
+    "country": "Slovenia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "29364"
+    ]
+  },
+  {
+    "tap_code": "SVNK8",
+    "country": "Slovenia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "29341"
+    ]
+  },
+  {
+    "tap_code": "SVNK9",
+    "country": "Slovenia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "29370"
+    ]
+  },
+  {
+    "tap_code": "SWECN",
+    "country": "Sweden",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24042"
+    ]
+  },
+  {
+    "tap_code": "SWEEP",
+    "country": "Sweden",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24008"
+    ]
+  },
+  {
+    "tap_code": "SWEHU",
+    "country": "Sweden",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24002"
+    ]
+  },
+  {
+    "tap_code": "SWEIQ",
+    "country": "Sweden",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24007"
+    ]
+  },
+  {
+    "tap_code": "SWESM",
+    "country": "Sweden",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24010"
+    ]
+  },
+  {
+    "tap_code": "SWETG",
+    "country": "Sweden",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "24006"
+    ]
+  },
+  {
+    "tap_code": "SYCK9",
+    "country": "Seychelles",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "63301"
+    ]
+  },
+  {
+    "tap_code": "SYR01",
+    "country": "Syrian Arab Republic",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41701"
+    ]
+  },
+  {
+    "tap_code": "SYRSP",
+    "country": "Syrian Arab Republic",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "41702"
+    ]
+  },
+  {
+    "tap_code": "TCAK9",
+    "country": "Turks and Caicos Islands",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "376350"
+    ]
+  },
+  {
+    "tap_code": "TELA1",
+    "country": null,
+    "source": "https://www.gsma.com/newsroom/wp-content/uploads/2013/07/TD-13-v10-3.pdf",
+    "verification_status": "unresolved",
+    "country_note": "Workbook IMSI uses international MCC 901; no single geographic country assigned without an authorised RAEX record.",
+    "imsi_prefixes": [
+      "90146"
+    ]
+  },
+  {
+    "tap_code": "TGOK9",
+    "country": "Togo",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "61503"
+    ]
+  },
+  {
+    "tap_code": "THACA",
+    "country": "Thailand",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52004"
+    ]
+  },
+  {
+    "tap_code": "THACT",
+    "country": "Thailand",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52000"
+    ]
+  },
+  {
+    "tap_code": "THAWN",
+    "country": "Thailand",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "52003"
+    ]
+  },
+  {
+    "tap_code": "TJKK8",
+    "country": "Tajikistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43601"
+    ]
+  },
+  {
+    "tap_code": "TJKK9",
+    "country": "Tajikistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43602"
+    ]
+  },
+  {
+    "tap_code": "TKMK8",
+    "country": "Turkmenistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43802"
+    ]
+  },
+  {
+    "tap_code": "TLSK9",
+    "country": "Timor-Leste",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "51402"
+    ]
+  },
+  {
+    "tap_code": "TUNOR",
+    "country": "Tunisia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60501"
+    ]
+  },
+  {
+    "tap_code": "TUNTA",
+    "country": "Tunisia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60503"
+    ]
+  },
+  {
+    "tap_code": "TUNTT",
+    "country": "Tunisia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "60502"
+    ]
+  },
+  {
+    "tap_code": "TURAC",
+    "country": "Türkiye",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28604"
+    ]
+  },
+  {
+    "tap_code": "TURIS",
+    "country": "Türkiye",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28603"
+    ]
+  },
+  {
+    "tap_code": "TURTC",
+    "country": "Türkiye",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28601"
+    ]
+  },
+  {
+    "tap_code": "TURTS",
+    "country": "Türkiye",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "28602"
+    ]
+  },
+  {
+    "tap_code": "TZAK8",
+    "country": "United Republic of Tanzania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64002"
+    ]
+  },
+  {
+    "tap_code": "TZAVC",
+    "country": "United Republic of Tanzania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64004"
+    ]
+  },
+  {
+    "tap_code": "TZAZN",
+    "country": "United Republic of Tanzania",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64003"
+    ]
+  },
+  {
+    "tap_code": "UGAK7",
+    "country": "Uganda",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64101"
+    ]
+  },
+  {
+    "tap_code": "UGAK9",
+    "country": "Uganda",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64122"
+    ]
+  },
+  {
+    "tap_code": "UKRAS",
+    "country": "Ukraine",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25506"
+    ]
+  },
+  {
+    "tap_code": "UKRKS",
+    "country": "Ukraine",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25503"
+    ]
+  },
+  {
+    "tap_code": "UKRRS",
+    "country": "Ukraine",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25502"
+    ]
+  },
+  {
+    "tap_code": "UKRUM",
+    "country": "Ukraine",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "25501"
+    ]
+  },
+  {
+    "tap_code": "URYK9",
+    "country": "Uruguay",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "74801"
+    ]
+  },
+  {
+    "tap_code": "USA16",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310160"
+    ]
+  },
+  {
+    "tap_code": "USA27",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310270"
+    ]
+  },
+  {
+    "tap_code": "USA31",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310310"
+    ]
+  },
+  {
+    "tap_code": "USA44",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "311882"
+    ]
+  },
+  {
+    "tap_code": "USAAT",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310380"
+    ]
+  },
+  {
+    "tap_code": "USABS",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310150"
+    ]
+  },
+  {
+    "tap_code": "USACC",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310030"
+    ]
+  },
+  {
+    "tap_code": "USACG",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310410"
+    ]
+  },
+  {
+    "tap_code": "USACW",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310690"
+    ]
+  },
+  {
+    "tap_code": "USAFN",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "313100"
+    ]
+  },
+  {
+    "tap_code": "USAJ7",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310450"
+    ]
+  },
+  {
+    "tap_code": "USAKZ",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310140"
+    ]
+  },
+  {
+    "tap_code": "USAMF",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310280"
+    ]
+  },
+  {
+    "tap_code": "USAPB",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310170"
+    ]
+  },
+  {
+    "tap_code": "USASC",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310490"
+    ]
+  },
+  {
+    "tap_code": "USASP",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310120"
+    ]
+  },
+  {
+    "tap_code": "USATL",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310840"
+    ]
+  },
+  {
+    "tap_code": "USAUN",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310020"
+    ]
+  },
+  {
+    "tap_code": "USAVH",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "31128"
+    ]
+  },
+  {
+    "tap_code": "USAVR",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "31059"
+    ]
+  },
+  {
+    "tap_code": "USAVZ",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "311480"
+    ]
+  },
+  {
+    "tap_code": "USAW0",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310200"
+    ]
+  },
+  {
+    "tap_code": "USAW4",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310240"
+    ]
+  },
+  {
+    "tap_code": "USAW5",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310250"
+    ]
+  },
+  {
+    "tap_code": "USAW6",
+    "country": "United States of America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "310260"
+    ]
+  },
+  {
+    "tap_code": "UZB05",
+    "country": "Uzbekistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43405"
+    ]
+  },
+  {
+    "tap_code": "UZB07",
+    "country": "Uzbekistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43407"
+    ]
+  },
+  {
+    "tap_code": "UZBDU",
+    "country": "Uzbekistan",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "43404"
+    ]
+  },
+  {
+    "tap_code": "VCTK9",
+    "country": "Saint Vincent and the Grenadines",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "360110"
+    ]
+  },
+  {
+    "tap_code": "VGBK9",
+    "country": "British Virgin Islands",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "348170"
+    ]
+  },
+  {
+    "tap_code": "VNMK7",
+    "country": "Viet Nam",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45201"
+    ]
+  },
+  {
+    "tap_code": "VNMK8",
+    "country": "Viet Nam",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "45204"
+    ]
+  },
+  {
+    "tap_code": "VUTK9",
+    "country": "Vanuatu",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "54105"
+    ]
+  },
+  {
+    "tap_code": "WSMK9",
+    "country": "Samoa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "54927"
+    ]
+  },
+  {
+    "tap_code": "YEMSA",
+    "country": "Yemen",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42101"
+    ]
+  },
+  {
+    "tap_code": "YEMSP",
+    "country": "Yemen",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42102"
+    ]
+  },
+  {
+    "tap_code": "YEMYY",
+    "country": "Yemen",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "42104"
+    ]
+  },
+  {
+    "tap_code": "YUGMT",
+    "country": "Serbia",
+    "source": "https://www.itu.int/dms_pub/itu-t/opb/sp/T-SP-OB.895-2007-OAS-PDF-E.pdf",
+    "verification_status": "inferred_prefix",
+    "country_note": "Legacy YUG prefix is ambiguous; workbook IMSI MCC/MNC 22001 matches the ITU Serbia allocation. Not RAEX-verified.",
+    "imsi_prefixes": [
+      "22001"
+    ]
+  },
+  {
+    "tap_code": "ZAFVC",
+    "country": "South Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "65501"
+    ]
+  },
+  {
+    "tap_code": "ZMBK8",
+    "country": "Zambia",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview",
+    "verification_status": "inferred_prefix",
+    "country_note": "Country inferred from the three-character TADIG prefix; not verified against a RAEX record.",
+    "imsi_prefixes": [
+      "64503"
+    ]
+  }
+]
