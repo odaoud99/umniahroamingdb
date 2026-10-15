@@ -21,7 +21,7 @@ The `@libsql/client/http` SDK connects over HTTPS. It runs the shared SQL statem
 ## Configure Vercel
 
 1. Import the GitHub repository into Vercel.
-2. Choose **Other** as the framework preset, **Node.js 24**, `npm run build` as the build command, and `public` as the output directory. `vercel.json` includes the API function and `/api/*` routing.
+2. Choose **Other** as the framework preset, **Node.js 24**, `npm run build` as the build command, and `dist/public` as the output directory. The build generates the static assets in that directory. `vercel.json` includes the API function and `/api/*` routing.
 3. Add these sensitive environment variables for **Production**:
 
 | Variable | Value |
@@ -34,6 +34,8 @@ The `@libsql/client/http` SDK connects over HTTPS. It runs the shared SQL statem
 5. Deploy. Open the HTTPS URL and create the first administrator with the setup code and a password of at least 12 characters. No default administrator password is shipped.
 6. Verify the initial count is **2,193 active records / 481 TAP codes**, Camel Outbound has **229 records**, and login, attachment downloads, logs, and filtered exports work on the hosted URL.
 7. Add team accounts from **User Access** and configure provider backups. Keep Vercel and database administration access with the designated owners.
+
+For emailed password resets, follow [Microsoft 365 mail setup](MAIL-SETUP.md). Configure `APP_ORIGIN`, `M365_TENANT_ID`, `M365_CLIENT_ID`, `M365_CLIENT_SECRET` and `M365_SENDER`, redeploy, and add recovery emails to existing accounts. Direct administrator password replacement and signed-in password changes work without email configuration.
 
 The application limits attached files to 4 MB combined per action to remain below Vercel's 4.5 MB function payload ceiling. Full hosted acceptance testing remains necessary once the accounts are available.
 

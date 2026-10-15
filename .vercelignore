@@ -1,0 +1,13 @@
+.git
+.venv
+.wrangler
+.dev.vars
+.env
+.env.*
+Turso.txt
+*.db
+*.xlsx
+data/*.sqlite*
+artifacts
+tests
+*deployment*.zip

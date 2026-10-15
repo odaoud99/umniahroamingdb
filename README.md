@@ -1,6 +1,6 @@
-# Umniah Roaming DB
+# Umniah Roaming Database
 
-A searchable roaming partner database with an Umniah-inspired navy, mint, cyan, and red interface. The supplied workbook is imported without changing the original file.
+A searchable roaming partner database with an Umniah-inspired navy, red, and white interface. The supplied workbook is imported without changing the original file.
 
 The initial database contains **2,193 records, 481 TAP codes, and seven service sheets**. All populated source rows are retained, including two duplicates. Search and export include TAP code, IMSI prefix, country, service, direction, and status.
 
@@ -27,7 +27,9 @@ The local server listens only on this computer. Online deployment instructions a
 - **CLL Attachments:** search and download original files. Up to three attachments per action, **4 MB combined**. Attachments are stored transactionally in database chunks and retained after termination.
 - **Export Data:** all database records (including terminated), matching filters across every page, or selected records. CSV opens in Excel; JSON retains all detail. Export activity is logged.
 - **Country Agent:** all 481 codes researched. **472 inferred country associations, 9 unresolved, 0 authenticated RAEX verifications.** Labels and source notes remain visible. Import an authorised RAEX CSV with `TAP Code,Country` headers, source reference, reason, and executor to update mappings. Updates retain before/after details in Logs.
-- **User Access:** administrators create viewer, editor, and administrator accounts. Passwords are salted PBKDF2 hashes; sessions last 12 hours, use HttpOnly/SameSite cookies, and use Secure cookies on hosted HTTPS. The executor note and authenticated account are both recorded.
+- **My account:** users change their own password after confirming the current password and save their recovery email. Password changes sign the account out on every device.
+- **User Access:** administrators create viewer, editor, and administrator accounts, reset any account's password, update recovery emails, and request emailed reset links. Administrator password confirmation and a reason are required for resets. Actions are audited without logging credentials or reset URLs.
+- **Forgotten passwords:** users request a single-use, 30-minute email reset link. Microsoft 365 sending must be configured and a recovery email saved on the account; see [MAIL-SETUP.md](MAIL-SETUP.md). Passwords are salted PBKDF2 hashes; sessions last 12 hours, use HttpOnly/SameSite cookies, and use Secure cookies on hosted HTTPS.
 
 ## Country research
 

@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+.wrangler/
+dist/
+*.tar.gz
+.dev.vars
+.env
+.env.*
+!.env.example
+Turso.txt
+*.db
+data/source.xlsx
+data/*.sqlite*
+*.xlsx
+.vercel/
+artifacts/
+*deployment*.zip
