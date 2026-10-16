@@ -2,7 +2,17 @@
 
 The Vercel deployment uses **Turso/libSQL** for durable SQLite storage. Records, logs, users, sessions, and CLL attachment chunks persist in that remote database. No production records are written to Vercel's temporary filesystem.
 
-Online application status: **not deployed**. GitHub is connected and the source repository is [odaoud99/umniahroamingdb](https://github.com/odaoud99/umniahroamingdb). The owner explicitly authorised publishing the complete system and workbook-derived roaming data in this public repository. Sites and the Vercel integration are disabled in the current Codex workspace. Vercel account access and a Turso database are still required to host the application. Do not paste database tokens or passwords into chat.
+Production application: [Umniah Roaming Database](https://umniahroamingdb-public.vercel.app/). The source repository is [odaoud99/umniahroamingdb](https://github.com/odaoud99/umniahroamingdb), connected to the `umniahroamingdb-public` Vercel project. The owner explicitly authorised publishing the complete system and workbook-derived roaming data in this public repository. Do not paste database tokens or passwords into chat.
+
+## Update the existing production application safely
+
+Push updates to the existing repository's `main` branch and use the existing Vercel project. Vercel builds the new deployment before promoting it to the production domain. Keep `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` pointing to the existing production database; do not create a replacement database or run a data reset/reimport for an application update.
+
+Launches, terminations, users, logs and CLL files are stored in Turso, independently of the application deployment. Startup uses additive `CREATE TABLE IF NOT EXISTS` statements. The original workbook import is skipped when the database's `imported` marker exists. The password-recovery update adds tables without modifying existing account or launch rows. Existing sessions continue until their normal expiry or an explicit password change.
+
+`tests/upgrade-persistence.test.mjs` checks an upgrade from the pre-recovery schema against a persistent test database. It verifies that active launches, terminated records, CLL contents, audit logs, accounts and sessions survive unchanged. This automated check does not constitute an inspection or backup of production records.
+
+If an application rollback is required, promote the previous compatible Vercel deployment while retaining the same database settings. An application rollback does not reverse user actions or restore an earlier database state. Before future destructive schema changes, take and verify an approved Turso backup and plan the migration separately.
 
 ## Prepare the repository
 
