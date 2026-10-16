@@ -23,7 +23,7 @@ test('upgrade preserves launches, terminations, CLL bytes, logs, accounts and ac
   const source=(await readFile(url,'utf8')).replace(/from '([^']+)';/g,(_match,ref)=>`from '${new URL(ref,url).href}'${ref.endsWith('.json')?" with {type:'json'}":''};`);
   const load=async(text,revision)=>(await import('data:text/javascript;base64,'+Buffer.from(text+'\n// '+revision).toString('base64'))).default;
   // Model the deployed schema before the additive password-recovery tables existed.
-  const previousSchema=source.replace(/^.*`CREATE (?:TABLE IF NOT EXISTS (?:password_resets|user_emails)|INDEX IF NOT EXISTS password_reset_user).*\r?\n/gm,'');
+  const previousSchema=source.replace(/^.*`CREATE (?:TABLE IF NOT EXISTS (?:password_resets|user_emails)|INDEX IF NOT EXISTS password_reset_user).*\r?\n/gm,'').replace('await initializeOperations(db);','');
   let worker=await load(previousSchema,'before-upgrade'),cookie;
   async function call(path,{body,form}={}){
     const headers={};if(cookie)headers.Cookie=cookie;if(body)headers['Content-Type']='application/json';
@@ -46,10 +46,12 @@ test('upgrade preserves launches, terminations, CLL bytes, logs, accounts and ac
     const form=new FormData();form.set('id',terminated.data.partner.id);form.set('reason','Existing termination');form.set('executor','Upgrade test');
     assert.equal((await call('/api/terminate',{form})).status,200);
     const before=snapshot(),attachment=before.attachments[0].id;
+    assert.equal(sqlite.prepare("SELECT COUNT(*) n FROM sqlite_master WHERE name='password_requests'").get().n,0);
     assert.equal(sqlite.prepare("SELECT COUNT(*) n FROM sqlite_master WHERE name IN ('password_resets','user_emails')").get().n,0);
     sqlite.close();sqlite=new DatabaseSync(join(directory,'existing.sqlite'));
     worker=await load(source,'after-upgrade');
     assert.equal((await call('/api/auth/status')).data.user.username,'upgrade-admin');
+    assert.equal(sqlite.prepare("SELECT COUNT(*) n FROM sqlite_master WHERE name='password_requests'").get().n,1);
     assert.deepEqual(snapshot(),before,'Schema initialization must leave existing data byte-for-byte unchanged');
     assert.equal(sqlite.prepare("SELECT COUNT(*) n FROM sqlite_master WHERE name IN ('password_resets','user_emails')").get().n,2);
     const records=await call('/api/records?q=UPG&status=All');assert.equal(records.data.total,2);

@@ -3,6 +3,7 @@ import countries from '../data/tap_countries.json';
 import report from '../data/import-report.json';
 import isoCountries from '../data/iso_countries.json';
 import {recoveryMailConfigured,sendPasswordResetEmail} from './recovery-mail.js';
+import {initializeOperations,handleOperations,queuePasswordRequest,runRaexAgent} from './operations.js';
 
 const SERVICES = ['GSM','GPRS','LTE','Camel'];
 const DIRECTIONS = ['Inbound','Outbound'];
@@ -41,6 +42,7 @@ async function initialize(db){
       `CREATE TABLE IF NOT EXISTS metadata(key TEXT PRIMARY KEY,value TEXT NOT NULL)`
     ];
     await db.batch(schema.map(sql=>db.prepare(sql)));
+    await initializeOperations(db);
     const imported=await db.prepare(`SELECT value FROM metadata WHERE key='imported'`).first();
     if(!imported){
       const at=now();
@@ -96,18 +98,19 @@ async function confirmPassword(req,db,user,password){
   await db.prepare('DELETE FROM login_attempts WHERE key=?').bind(attemptKey).run();
   return account;
 }
-async function replacePassword(db,target,password,{reason,actor,executor,reset=null}){
+async function replacePassword(db,target,password,{reason,actor,executor,reset=null,requestId=null,completeRequests=false}){
   const salt=uid(),hash=await passwordHash(password,salt),at=now(),consumeId=uid(),statements=[];
   if(equal(await passwordHash(password,target.salt),target.password_hash))fail('Choose a different password from the current one.');
   if(reset)statements.push(db.prepare(`UPDATE password_resets SET consumed_at=?,consume_id=? WHERE token_hash=? AND user_id=? AND consumed_at IS NULL AND expires_at>? RETURNING user_id`).bind(at,consumeId,reset,target.id,at));
-  statements.push(db.prepare(`UPDATE users SET password_hash=?,salt=? WHERE id=? AND password_hash=? AND salt=?${reset?' AND EXISTS(SELECT 1 FROM password_resets WHERE token_hash=? AND consume_id=?)':''} RETURNING id`).bind(hash,salt,target.id,target.password_hash,target.salt,...(reset?[reset,consumeId]:[])));
+  statements.push(db.prepare(`UPDATE users SET password_hash=?,salt=? WHERE id=? AND password_hash=? AND salt=?${reset?' AND EXISTS(SELECT 1 FROM password_resets WHERE token_hash=? AND consume_id=?)':''}${requestId?" AND EXISTS(SELECT 1 FROM password_requests WHERE id=? AND user_id=users.id AND status='Pending')":''} RETURNING id`).bind(hash,salt,target.id,target.password_hash,target.salt,...(reset?[reset,consumeId]:[]),...(requestId?[requestId]:[])));
   // The fresh salt gates every dependent write; a stale/consumed request cannot revoke sessions or create an audit event.
   const gate='EXISTS(SELECT 1 FROM users WHERE id=? AND salt=?)';
   statements.push(db.prepare(`DELETE FROM sessions WHERE user_id=? AND ${gate}`).bind(target.id,target.id,salt));
   statements.push(db.prepare(`DELETE FROM password_resets WHERE user_id=?${reset?' AND token_hash<>?':''} AND ${gate}`).bind(target.id,...(reset?[reset]:[]),target.id,salt));
   statements.push(db.prepare(`INSERT INTO logs SELECT ?,?,?,?,?,?,?,?,? WHERE ${gate}`).bind(uid(),'Password changed',null,null,reason,executor,actor,at,JSON.stringify({user_id:target.id,username:target.username,method:reset?'single-use reset link':'password confirmation'}),target.id,salt));
+  if(completeRequests)statements.push(db.prepare(`UPDATE password_requests SET status='Done',done_at=?,done_by=? WHERE user_id=? AND status='Pending' AND ${gate}`).bind(at,actor,target.id,target.id,salt));
   const results=await db.batch(statements);
-  if(!results[reset?1:0].meta.changes)fail(reset?'This reset link is invalid or expired. Ask an administrator for a new link.':'The account changed during this request. Please retry.',reset?400:409);
+  if(!results[reset?1:0].meta.changes)fail(reset?'This reset link is invalid or expired. Ask an administrator for a new link.':requestId?'This request was completed or the account changed. Refresh the request queue.':'The account changed during this request. Please retry.',reset?400:409);
 }
 function validateRecord(r){
   const tap_code=required(r.tap_code,'TAP code',5).toUpperCase();if(!/^[A-Z0-9]{5}$/.test(tap_code))fail('TAP code must be five letters or digits.');
@@ -166,19 +169,20 @@ async function handleApi(req,env,url,ctx){
   if(path==='/api/auth/status'){
     const count=await db.prepare('SELECT COUNT(*) n FROM users').first();return json({user:await authenticate(req,db),setup_required:count.n===0,password_reset_email_available:recoveryMailConfigured(env)});
   }
+  if(path==='/api/cron/raex'&&method==='GET'){
+    if(!env.RAEX_FEED_URL||!env.RAEX_FEED_TOKEN)return json({status:'awaiting_access',message:'An authorized RAEX feed is not configured.'});
+    if(!env.CRON_SECRET||!equal(req.headers.get('Authorization')||'','Bearer '+env.CRON_SECRET))fail('Not authorized.',401);
+    return json(await runRaexAgent(db,env));
+  }
   if(path==='/api/auth/forgot-password'&&method==='POST'){
     const started=Date.now(),b=await req.json(),identifier=required(b.identifier,'Username or email',254).toLowerCase();
     await limitAttempts(req,db,'forgot-account:'+identifier);
     await limitAttempts(req,db,'forgot-network:'+(req.headers.get('CF-Connecting-IP')||'local'),100);
-    if(!recoveryMailConfigured(env))fail('Microsoft 365 recovery email is not configured. Contact your administrator.',503);
     const target=await db.prepare(`SELECT u.*,e.email FROM users u LEFT JOIN user_emails e ON e.user_id=u.id WHERE u.username=? OR e.email=? LIMIT 1`).bind(identifier,identifier).first();
-    if(target?.email){
-      const recovery=issueRecoveryEmail(db,env,target,{reason:'Password recovery requested',actor:'Password recovery',executor:'Password recovery'}).catch(()=>console.warn('Password recovery request failed.'));
-      if(ctx?.waitUntil)ctx.waitUntil(recovery);else await recovery;
-    }
-    // Email runs in the platform background context; both known and unknown identifiers receive the same response.
+    if(target)await queuePasswordRequest(db,target.id);
+    // Known and unknown identifiers receive the same response; requests are visible to every administrator.
     await new Promise(resolve=>setTimeout(resolve,Math.max(0,300-(Date.now()-started))));
-    return json({ok:true,message:'If this account has a recovery email, a reset link will be sent. Check your inbox and junk folder.'});
+    return json({ok:true,message:'If the account exists, a password-reset request is now available to all administrators. Contact your administrator to verify your identity and arrange your new password.'});
   }
   if(path==='/api/auth/reset-password'&&method==='POST'){
     await limitAttempts(req,db,'password-recovery-network:'+(req.headers.get('CF-Connecting-IP')||'local'),100);
@@ -220,6 +224,8 @@ async function handleApi(req,env,url,ctx){
     response.headers.set('Set-Cookie',`urdb_session=${token}; HttpOnly; SameSite=Strict; Path=/; Max-Age=43200${url.protocol==='https:'?'; Secure':''}`);return response;
   }
   const user=await authenticate(req,db);if(!user)fail('Please sign in.',401);
+  const operation=await handleOperations({req,env,db,url,user,confirmPassword,replacePassword});
+  if(operation)return operation;
   if(path==='/api/account'&&method==='GET'){
     const email=await db.prepare('SELECT email FROM user_emails WHERE user_id=?').bind(user.id).first();
     return json({user,email:email?.email||'',password_reset_email_available:recoveryMailConfigured(env)});
@@ -251,7 +257,8 @@ async function handleApi(req,env,url,ctx){
     if(!target)fail('Account not found.',404);
     const reason=required(b.reason,'Reason');
     if(resetUser[2]==='reset-password'){
-      await replacePassword(db,target,validatePassword(b.new_password),{reason,actor:user.username,executor:user.name});
+      const requestId=b.request_id?required(b.request_id,'Request ID',100):null;
+      await replacePassword(db,target,validatePassword(b.new_password),{reason,actor:user.username,executor:user.name,requestId,completeRequests:true});
       const response=json({ok:true,signed_out:target.id===user.id});return target.id===user.id?clearSession(response):response;
     }
     await issueRecoveryEmail(db,env,target,{reason,actor:user.username,executor:user.name},ctx);
@@ -273,7 +280,7 @@ async function handleApi(req,env,url,ctx){
   if(path==='/api/partners/detail'){
     const tap=required(url.searchParams.get('tap_code'),'TAP code',5);
     const records=await db.prepare(recordSelect+' WHERE p.tap_code=? ORDER BY p.service,p.direction').bind(tap).all();
-    const logs=await db.prepare('SELECT * FROM logs WHERE tap_code=? ORDER BY at DESC').bind(tap).all();
+    const logs=user.role==='admin'?await db.prepare('SELECT * FROM logs WHERE tap_code=? ORDER BY at DESC').bind(tap).all():{results:[]};
     return json({records:records.results,logs:logs.results.map(r=>({...r,snapshot:JSON.parse(r.snapshot)}))});
   }
   if(path==='/api/launch'&&method==='POST'){
@@ -298,6 +305,7 @@ async function handleApi(req,env,url,ctx){
     return json({ok:true,at});
   }
   if(path==='/api/logs'){
+    if(user.role!=='admin')fail('Administrator access required.',403);
     const q='%'+(url.searchParams.get('q')||'')+'%',action=url.searchParams.get('action')||'',from=url.searchParams.get('from')||'',to=url.searchParams.get('to')||'';
     const where=` WHERE (COALESCE(l.tap_code,'') LIKE ? OR l.reason LIKE ? OR l.executor LIKE ? OR l.actor LIKE ?) AND (?='' OR l.action=?) AND (?='' OR l.at>=?) AND (?='' OR l.at<?)`;
     const end=to?new Date(new Date(to+'T00:00:00+03:00').getTime()+86400000).toISOString():'';

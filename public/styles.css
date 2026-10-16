@@ -6,3 +6,7 @@
 @media(max-width:400px){.filters,.form-grid{grid-template-columns:1fr}.span-two{grid-column:auto}.stat{padding:14px}.stat .value{font-size:26px}.mapping-grid{grid-template-columns:1fr}.live{font-size:10px}.topbar{padding:0 16px}.auth-form-area{padding:24px 16px}}
 
 .brand-mark,.nav button.active,.btn.primary{color:#fff}.brand small{letter-spacing:.9px}.btn.primary:hover{background:#b6003c;border-color:#b6003c}.text-button{border:0;background:transparent;color:var(--accent);padding:0;text-decoration:underline;margin-top:18px;cursor:pointer}.auth-form .text-button{width:auto;margin-top:18px}.account-form .field,.recovery-card .field{margin-bottom:20px}.account-form .btn,.recovery-card .btn{margin-top:18px}.form-message{margin:16px 0;color:var(--ink);line-height:1.6}.recovery-page{min-height:100vh;display:grid;place-items:center;padding:24px;background:linear-gradient(135deg,#202a44,#481d38)}.recovery-card{width:min(100%,520px);margin:0}.crumb{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}[hidden]{display:none!important}
+
+.sidebar{overflow-y:auto}.nav{flex-shrink:0}.nav-count{margin-left:auto;background:#ffffff26;border-radius:12px;padding:0 7px;font-size:11px;font-weight:700}.document-actions{margin-bottom:20px}.request-done{background:#fce5ed;color:#8a1236;font-weight:700}.done-label{color:#8a1236}.notice p{margin-top:6px}.filters>label{display:flex;gap:8px;align-items:center}
+
+.filters>label{white-space:nowrap}.filters>label input[type=checkbox]{width:auto;margin:0}

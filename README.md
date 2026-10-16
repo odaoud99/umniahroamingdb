@@ -23,13 +23,19 @@ The local server listens only on this computer. Online deployment instructions a
 - **Database:** search, combined filters, quick Camel Outbound / LTE Outbound views, pagination, selection, partner details, and active/terminated records.
 - **New RP Launch:** requires TAP, IMSI, service, direction, reason, and executor. Optional CLL attachments. Identical active combinations are rejected.
 - **Terminate RP:** selects an exact active record and requires reason/executor. Removes it from the active directory while retaining its snapshot, history, and attachments. Other services and prefixes stay active.
-- **Logs:** server-generated UTC timestamps, displayed in Asia/Riyadh (UTC+3); reason, executor, signed-in account, record snapshot, and documents. Date, action, and text filters. Database triggers prevent ordinary audit-log editing/deletion.
+- **Logs (administrators only):** server-generated UTC timestamps, displayed in Asia/Riyadh (UTC+3); reason, executor, signed-in account, record snapshot, and documents. Date, action, and text filters. Database triggers prevent ordinary audit-log editing/deletion.
 - **CLL Attachments:** search and download original files. Up to three attachments per action, **4 MB combined**. Attachments are stored transactionally in database chunks and retained after termination.
 - **Export Data:** all database records (including terminated), matching filters across every page, or selected records. CSV opens in Excel; JSON retains all detail. Export activity is logged.
 - **Country Agent:** all 481 codes researched. **472 inferred country associations, 9 unresolved, 0 authenticated RAEX verifications.** Labels and source notes remain visible. Import an authorised RAEX CSV with `TAP Code,Country` headers, source reference, reason, and executor to update mappings. Updates retain before/after details in Logs.
 - **My account:** users change their own password after confirming the current password and save their recovery email. Password changes sign the account out on every device.
 - **User Access:** administrators create viewer, editor, and administrator accounts, reset any account's password, update recovery emails, and request emailed reset links. Administrator password confirmation and a reason are required for resets. Actions are audited without logging credentials or reset URLs.
-- **Forgotten passwords:** users request a single-use, 30-minute email reset link. Microsoft 365 sending must be configured and a recovery email saved on the account; see [MAIL-SETUP.md](MAIL-SETUP.md). Passwords are salted PBKDF2 hashes; sessions last 12 hours, use HttpOnly/SameSite cookies, and use Secure cookies on hosted HTTPS.
+- **Forgotten passwords:** the login page sends a shared request to every administrator. One administrator verifies identity and resets the password; the request is atomically highlighted **Done** for everyone. No email setup is needed. Passwords are salted PBKDF2 hashes; sessions last 12 hours, use HttpOnly/SameSite cookies, and use Secure cookies on hosted HTTPS.
+
+## Access and document updates
+
+Viewers have no New RP Launch, Terminate RP or Logs tabs. Editors can launch and terminate but have no Logs tab. Only administrators can read the Logs API, see partner action histories, manage users, execute password requests, or upload/sync IR documents. All roles can search, export and download documents.
+
+The **IR21 & IR85** tab lists every stored TAP code, keeps document versions and original attachments, and sends in-app update notifications to all users. The **RAEX document agent** supports a daily authorized export-feed check with content hashing and resumable pages. It currently shows **Awaiting authorized RAEX access** because no access or feed has been supplied. It has not downloaded partner files. See [RAEX-SETUP.md](RAEX-SETUP.md) for the feed contract and access requirements. Optional administrator-initiated Microsoft 365 reset emails remain documented in [MAIL-SETUP.md](MAIL-SETUP.md).
 
 ## Country research
 
@@ -44,7 +50,7 @@ npm run build
 npm test
 ```
 
-Local tests use an isolated temporary SQLite database. They cover source counts, authentication, mandatory notes, duplicate rejection, concurrent termination, attachment fidelity, retained audit history, exports, roles, rejected cross-origin mutations, and audit immutability. The shared Turso adapter is tested against a transactional SQLite stand-in. A live Vercel/Turso deployment has not been verified without account access.
+Local tests use an isolated temporary SQLite database. They cover source counts, authentication, mandatory notes, duplicate rejection, concurrent termination, attachment fidelity, retained audit history, exports, roles, rejected cross-origin mutations, and audit immutability. The shared Turso adapter is tested against a transactional SQLite stand-in. The production application is hosted on the existing Vercel/Turso installation. Update-preservation tests cover accounts, launches, terminations, logs, sessions and original CLL bytes; feed tests use synthetic files and mocked network responses.
 
 ## Data and backups
 

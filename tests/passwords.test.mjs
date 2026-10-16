@@ -79,10 +79,16 @@ test('only an administrator can reset another account, with confirmation and an 
   assert.ok(logs.every(l=>!JSON.stringify(l).includes('Admin-replaced-password-123')&&!JSON.stringify(l).includes('password_hash')));
 });
 
-test('forgotten passwords return a generic response and email only the stored address with a trusted-origin link',async()=>{
+test('forgotten passwords queue an administrator request; optional admin email goes only to the stored address',async()=>{
   const unknown=await call('/api/auth/forgot-password',{token:null,body:{identifier:'unknown-user'}});
   const known=await call('/api/auth/forgot-password',{token:null,urlOrigin:'https://untrusted-host.example',body:{identifier:'member',email:'attacker@example.com'}});
   assert.equal(unknown.status,200);assert.deepEqual(unknown.data,known.data);assert.ok(!known.data.reset_path);
+  await delivery();assert.equal(mails.length,0);
+  assert.equal(sqlite.prepare("SELECT COUNT(*) n FROM password_requests WHERE user_id=? AND status='Pending'").get(memberId).n,1);
+  await call('/api/auth/forgot-password',{token:null,body:{identifier:'member'}});
+  assert.equal(sqlite.prepare("SELECT COUNT(*) n FROM password_requests WHERE user_id=? AND status='Pending'").get(memberId).n,1);
+  assert.equal((await call('/api/password-requests',{token:memberCookie})).status,403);
+  assert.equal((await call(`/api/users/${memberId}/reset-email`,{body:{current_password:adminPassword,reason:'Administrator requested optional email'}})).status,200);
   await delivery();assert.equal(mails.length,1);
   assert.equal(mails[0].message.toRecipients[0].emailAddress.address,'member@example.com');
   assert.match(mails[0].message.body.content,/https:\/\/roaming\.example\.com\/#reset-password=/);
@@ -120,13 +126,13 @@ test('email updates require password confirmation, enforce uniqueness, and inval
   assert.equal((await call('/api/account',{token:memberCookie})).data.email,'member-new@example.com');
 });
 
-test('failed delivery revokes its token; missing mail setup is explicit; unsafe origins are rejected',async()=>{
+test('failed delivery revokes its token; administrator recovery works without mail; unsafe origins are rejected',async()=>{
   failMail=true;
   assert.equal((await call(`/api/users/${memberId}/reset-email`,{body:{current_password:adminPassword,reason:'Delivery failure test'}})).status,200);
   await delivery();failMail=false;
   assert.equal(sqlite.prepare('SELECT COUNT(*) n FROM password_resets WHERE user_id=?').get(memberId).n,0);
   assert.ok(sqlite.prepare("SELECT * FROM logs WHERE action='Password reset email failed'").get());
-  assert.equal((await call('/api/auth/forgot-password',{config:{SETUP_CODE:env.SETUP_CODE},token:null,body:{identifier:'member'}})).status,503);
+  assert.equal((await call('/api/auth/forgot-password',{config:{SETUP_CODE:env.SETUP_CODE},token:null,body:{identifier:'member'}})).status,200);
   assert.equal((await call('/api/auth/change-password',{token:memberCookie,origin:'https://malicious.example',body:{current_password:'wrong',new_password:'Attacker-password-123'}})).status,403);
   assert.equal((await call('/api/auth/reset-password',{token:null,body:{token:'invalid',new_password:'Attacker-password-123'}})).status,400);
 });

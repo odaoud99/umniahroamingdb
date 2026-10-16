@@ -1,6 +1,6 @@
 # Microsoft 365 password recovery — Umniah Roaming Database
 
-The application supports Microsoft 365 recovery emails through Microsoft Graph. Live delivery is not configured or verified by these code changes. An approved sender mailbox and Microsoft 365 administrator setup are required. Keep all secrets in hosting environment settings; never commit or paste them into chat.
+The login-page recovery flow now uses administrator requests and does not require email; see [RAEX-SETUP.md](RAEX-SETUP.md#administrator-password-requests). Administrators can optionally initiate Microsoft 365 reset emails from User Access through Microsoft Graph. Live delivery is not configured or verified by these code changes. An approved sender mailbox and Microsoft 365 administrator setup are required. Keep all secrets in hosting environment settings; never commit or paste them into chat.
 
 ## Configure the sending application
 
@@ -25,7 +25,7 @@ The same variables can be supplied to the local process for an approved local ma
 Existing usernames, passwords, partner data and logs remain in place. Existing accounts initially have no recovery email.
 
 1. Users can save their recovery email under **My account**, after confirming their current password. Administrators can update an account's recovery email under **User Access → Reset password → Update recovery email**, after confirming their administrator password.
-2. Test **Forgot your password?** using a controlled existing account. The public response stays generic regardless of whether the account exists. The email must arrive only at that account's stored address.
+2. In **User Access → Reset password**, choose **Email a reset link** for a controlled existing account. The email must arrive only at that account's stored address.
 3. Open the email link, choose and confirm a new password, then sign in. Old passwords and existing sessions must stop working. Reusing the same link must fail; links expire in 30 minutes.
 4. Review **Logs**, including `Password reset email requested`, `Password reset email failed`, `Password changed` and `Recovery email changed`. Microsoft Graph acceptance means a message was accepted for processing; check the recipient mailbox and Microsoft 365 mail tracing if delivery does not complete.
 
@@ -33,7 +33,7 @@ Administrators can set a replacement password directly even when email sending i
 
 ## Implementation and tests
 
-Random 256-bit links are stored as hashes, consumed atomically once and sent using the configured HTTPS origin. Reset URLs, passwords and password hashes are excluded from action logs. Client-supplied recipient addresses are ignored by the forgot-password endpoint. Vercel `waitUntil` keeps email delivery running after the generic response; provider failures revoke the affected reset link and are logged. Token issuance is gated on the current account and recovery email to avoid issuing a stale request after either changes.
+Random 256-bit links are stored as hashes, consumed atomically once and sent using the configured HTTPS origin. Reset URLs, passwords and password hashes are excluded from action logs. The login-page forgot-password endpoint creates administrator requests and never sends mail. Administrator-initiated mail is sent only to the account’s stored address. Vercel `waitUntil` keeps email delivery running after the generic response; provider failures revoke the affected reset link and are logged. Token issuance is gated on the current account and recovery email to avoid issuing a stale request after either changes.
 
 `npm test` exercises the flows with isolated databases and a mocked Microsoft Graph service. It does not send real email or prove the production tenant's permissions. Follow the live verification steps above after configuration.
 

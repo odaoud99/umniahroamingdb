@@ -21,7 +21,7 @@ export default async function handler(req,res){
     const originalPath=pathname+(parsed.search?'?'+parsed.searchParams.toString():'');
     const request=new Request(`https://${host}${originalPath}`,{method:req.method,headers,...(['GET','HEAD'].includes(req.method)?{}:{body:Buffer.concat(pieces)})});
     request.headers.set('CF-Connecting-IP',ipAddress(request)||'unknown');
-    const response=await worker.fetch(request,{DB:database,SETUP_CODE:process.env.SETUP_CODE,APP_ORIGIN:process.env.APP_ORIGIN,M365_TENANT_ID:process.env.M365_TENANT_ID,M365_CLIENT_ID:process.env.M365_CLIENT_ID,M365_CLIENT_SECRET:process.env.M365_CLIENT_SECRET,M365_SENDER:process.env.M365_SENDER,ASSETS:{fetch:async()=>new Response('Not found',{status:404})}},{waitUntil});
+    const response=await worker.fetch(request,{DB:database,SETUP_CODE:process.env.SETUP_CODE,APP_ORIGIN:process.env.APP_ORIGIN,M365_TENANT_ID:process.env.M365_TENANT_ID,M365_CLIENT_ID:process.env.M365_CLIENT_ID,M365_CLIENT_SECRET:process.env.M365_CLIENT_SECRET,M365_SENDER:process.env.M365_SENDER,RAEX_FEED_URL:process.env.RAEX_FEED_URL,RAEX_FEED_TOKEN:process.env.RAEX_FEED_TOKEN,CRON_SECRET:process.env.CRON_SECRET,ASSETS:{fetch:async()=>new Response('Not found',{status:404})}},{waitUntil});
     res.statusCode=response.status;response.headers.forEach((value,key)=>res.setHeader(key,value));res.end(Buffer.from(await response.arrayBuffer()));
   }catch(e){console.error('Hosted request failed:',e.code||e.name);res.statusCode=500;res.setHeader('Content-Type','application/json');res.setHeader('Cache-Control','no-store');res.end(JSON.stringify({error:'The database could not be reached. Ask the administrator to check the hosting configuration.'}));}
 }
